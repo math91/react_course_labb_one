@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+input {
+  padding: 7px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid DodgerBlue;
+}
+
+button {
+  padding: 7px;
+  margin: 5px;
+  background-color: DodgerBlue;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid DodgerBlue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: DeepSkyBlue;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  float: left;
+  width: 100%;
+  max-width: 250px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+.settings {
+  padding-top: 20px;
+  clear: both;
+}
+
+.switch-theme {
+  padding: 20px;
+}
+
+.dark {
+  background-color: DimGray;
+  color: White;
+}
+
+.light {
+  background-color: FloralWhite;
+  color: Black;
+}
+
+.dark,
+.light {
+  height: 96vh;
+  padding: 2vh;
+  text-align: center;
+}
