@@ -12,7 +12,9 @@ function SwitchTheme(props) {
 
   return (
     <div className="switch-theme">
-      <label>Dark mode:</label>
+      <label>
+        Dark mode:
+      </label>
       <input
         type="checkbox"
         checked={props.darkTheme}

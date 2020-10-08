@@ -9,9 +9,9 @@ function DeleteAll(props) {
   return (
     <>
       <button
-      onClick={handleClick}
+        onClick={handleClick}
       >
-      Deleta all quotes
+        Deleta all quotes
       </button>
     </>
   )
